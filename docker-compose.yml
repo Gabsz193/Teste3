@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  teste1:
+    build: ./teste1
+    ports:
+      - "3010:3010"
+  teste2:
+    build: ./teste2
+    ports:
+      - "3011:3011"
